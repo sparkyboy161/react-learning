@@ -1,0 +1,15 @@
+.TodoItem{
+    font-family: 'Segoe UI',
+                  Tahoma,
+                  Geneva,
+                  Verdana,
+                  sans-serif;
+    color: #242424;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.TodoItem-complete{
+    text-decoration: line-through;
+    color: #111;
+}
