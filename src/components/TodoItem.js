@@ -6,7 +6,6 @@ class TodoItem extends Component{
     render(){
         const classNames = require('classnames');
         
-        // let className = 'TodoItem';
         const {item} = this.props;
         let className = classNames('TodoItem',{' TodoItem-complete': item.isComplete}); 
         
